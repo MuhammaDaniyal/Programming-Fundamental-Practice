@@ -45,7 +45,7 @@ int main(){
 *   *     
 *     *   
 * * * * * 
-
+*/
 	for( int i=1 ; i<=n ; ++i )
 	{
 		for ( int j=1 ; j<=n ; ++j )
@@ -56,7 +56,7 @@ int main(){
 		}
 		cout << endl;
 	}
-*/
+
 
 
 /* 
@@ -65,6 +65,7 @@ int main(){
     *   * 
   *     * 
 * * * * * 
+*/
 
 	for ( int i=1 ; i<=n ; ++i )
 	{
@@ -78,7 +79,7 @@ int main(){
 	}
 
 
-*/
+
 
 
 /*
@@ -88,7 +89,7 @@ int main(){
   *****
  *******
 *********
-
+*/
 	int k=1;
 	for ( int i=1 ; i<=n ; ++i )
 	{
@@ -114,7 +115,6 @@ int main(){
 	cout << "\n\n\n";
 
 
-*/
 
 
 
@@ -127,7 +127,8 @@ int main(){
       *     * 
       *     * 
 * * * *     * 
-
+*/
+	
 	int mid = n/2+1;
 	for ( int i=1 ; i<=n ; ++i )
 	{
@@ -140,32 +141,30 @@ int main(){
 	cout << endl;
 	}
 
+
+/*
+ 1 2 3 4 5 6 
+ 1 2 3 4 5 
+ 1 2 3 4 
+ 1 2 3 
+ 1 2 
+ 1 
 */
+	int m=n;
+	for ( int i=1 ; i<=n ; ++i )
+	{
+		for ( int j=1 ; j<=m ; ++j )
+			cout << j << " ";			
+	m--;
+	cout << endl;
+	}
 
-
-
-// 1 2 3 4 5 6 
-// 1 2 3 4 5 
-// 1 2 3 4 
-// 1 2 3 
-// 1 2 
-// 1 
-
-	// int m=n;
-	// for ( int i=1 ; i<=n ; ++i )
-	// {
-	// 	for ( int j=1 ; j<=m ; ++j )
-	// 		cout << j << " ";			
-	// m--;
-	// cout << endl;
-	// }
-
-	// for( int i=0 ; i<n ; ++i )
-	// {
-	// 	for( int j=0 ; j<n-i ; ++j )
-	// 		cout << j+1 << " ";
-	// 	cout << endl;
-	// }
+	for( int i=0 ; i<n ; ++i )
+	{
+		for( int j=0 ; j<n-i ; ++j )
+			cout << j+1 << " ";
+		cout << endl;
+	}
 
 
 /*
@@ -175,7 +174,7 @@ int main(){
 // C C C 
 // D D D D 
 // E E E E E 
-
+*/
 	char ch1=65;
 	for ( int i=0 ; i<n ; ++i )
 	{
@@ -183,15 +182,15 @@ int main(){
 			cout << char(ch1+i) << " ";	
 		cout << endl;
 	}
-*/
+
 
 /*
-// A 
-// A B 
-// A B C 
-// A B C D 
-// A B C D E 
-
+A 
+A B 
+A B C 
+A B C D 
+A B C D E 
+*/
 	char ch2=65;
 	for ( int i=0 ; i<n ; ++i )
 	{
@@ -199,9 +198,9 @@ int main(){
 			cout << char(ch2+j) << " ";	
 		cout << endl;
 	}
-*/
 
-/*	char ch3=65;
+
+	char ch3=65;
 	for ( int i=0 ; i<n ; ++i )
 	{
 		for ( int k=n-i-1 ; k>0 ; --k )
@@ -211,7 +210,7 @@ int main(){
 			cout << char(ch3+j);	
 		cout << endl;
 	}
-*/
+
 	
 
 
@@ -221,13 +220,13 @@ int main(){
 	
 	
 /*
-
     #    
    # #   
   #   #  
  #     # 
 #       #
-	
+
+*/ 
 	for( int i=1 ; i<=n ; ++i )
 	{
 		for ( int j=1 ; j<=n*2-1 ; ++j )
@@ -239,7 +238,6 @@ int main(){
 		mid1++;
 		mid2--;
 	}
-*/
 
 
 
