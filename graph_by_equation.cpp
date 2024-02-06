@@ -4,10 +4,8 @@ using namespace std;
 
 int main(){
 
-	cout << "Name: M.Daniyal\nRoll no. 23I-0579\nAssignment 2\n";
-
 /*
-Write a program to plot a graph of funcaon f(x) =𝑥 # + 𝑥 #%& . The program shall take a maximum
+Write a program to plot a graph of funcaon f(x) =𝑥^n + 𝑥^(n-1) . The program shall take a maximum
 absolute value of x as well as a posiave integer n as input. You will plot a graph for the range [0, x].
 You should label the y-axis according to the maximum value of x. 
 */
